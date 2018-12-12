@@ -103,7 +103,7 @@ class TextFields extends Component {
           <Grid item xs={6}>
             <Card className={classes.card}>
               <CardContent>
-                <h2><Filter1 /></h2><h2>Personal Details</h2>
+                <Filter1 /><h2>Personal Details</h2>
                 <form
                   className={classes.container}
                   noValidate
@@ -286,7 +286,6 @@ class TextFields extends Component {
           {$facePreview}
         </div>
       </div>
-      
             </Card>
           </Grid>
           <Grid item xs />
