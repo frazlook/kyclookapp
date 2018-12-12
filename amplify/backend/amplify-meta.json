@@ -19,7 +19,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/kyclookapp-20181211183410-deployment/amplify-cfn-templates/hosting/template.json",
                 "logicalId": "hostingS3AndCloudFront"
             },
-            "lastPushTimeStamp": "2018-12-12T01:48:04.707Z",
+            "lastPushTimeStamp": "2018-12-12T09:50:09.242Z",
             "output": {
                 "S3BucketSecureURL": "https://kyclookapp-20181211182556-hostingbucket-dev.s3.amazonaws.com",
                 "WebsiteURL": "http://kyclookapp-20181211182556-hostingbucket-dev.s3-website-us-west-2.amazonaws.com",

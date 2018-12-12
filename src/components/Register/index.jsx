@@ -6,6 +6,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
+import Filter1 from '@material-ui/icons/Filter1'
 import axios from 'axios';
 import './FileUpload.css'
 
@@ -78,10 +79,19 @@ class TextFields extends Component {
 
     let {imagePreviewUrl} = this.state;
     let $imagePreview = null;
+    let $frontPreview = null;
+    let $backPreview = null;
+    let $facePreview = null;
     if (imagePreviewUrl) {
       $imagePreview = (<img src={imagePreviewUrl} />);
+      $frontPreview = (<img src={imagePreviewUrl} />);
+      $backPreview = (<img src={imagePreviewUrl} />);
+      $facePreview = (<img src={imagePreviewUrl} />);
     } else {
       $imagePreview = (<div className="previewText">Please select an image</div>);
+      $frontPreview = (<div className="previewText">Please select an image</div>);
+      $backPreview = (<div className="previewText">Please select an image</div>);
+      $facePreview = (<div className="previewText">Please select an image</div>);
     }
 
     const { classes } = this.props;
@@ -93,6 +103,7 @@ class TextFields extends Component {
           <Grid item xs={6}>
             <Card className={classes.card}>
               <CardContent>
+                <h2><Filter1 /></h2><h2>Personal Details</h2>
                 <form
                   className={classes.container}
                   noValidate
@@ -139,7 +150,7 @@ class TextFields extends Component {
                   <TextField
                     placeholder="Unit/Apt."
                     id="continued-address"
-                    label="Address continue"
+                    label="Unit/Apt."
                     className={classes.textField}
                     value={this.state.secondAddress}
                     onChange={this.handleChange("name")}
@@ -234,7 +245,7 @@ class TextFields extends Component {
             </label>
         </form>
         <div className="imgPreview">
-          {$imagePreview}
+          {$frontPreview}
         </div>
       </div>
       <div className="previewComponent">
@@ -253,7 +264,7 @@ class TextFields extends Component {
             </label>
         </form>
         <div className="imgPreview">
-          {$imagePreview}
+          {$backPreview}
         </div>
       </div>
       <div className="previewComponent">
@@ -272,7 +283,7 @@ class TextFields extends Component {
             </label>
         </form>
         <div className="imgPreview">
-          {$imagePreview}
+          {$facePreview}
         </div>
       </div>
       
