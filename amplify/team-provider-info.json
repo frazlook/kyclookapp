@@ -1,0 +1,26 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "kyclookapp-20181211182506-authRole",
+            "UnauthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211182506-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211182506-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "kyclookapp-20181211182506-deployment",
+            "UnauthRoleName": "kyclookapp-20181211182506-unauthRole",
+            "StackName": "kyclookapp-20181211182506",
+            "StackId": "arn:aws:cloudformation:us-west-2:804165849592:stack/kyclookapp-20181211182506/15d1cc10-fd72-11e8-97ad-503aca41a099"
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "kyclookapp-20181211183410-authRole",
+            "UnauthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211183410-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211183410-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "kyclookapp-20181211183410-deployment",
+            "UnauthRoleName": "kyclookapp-20181211183410-unauthRole",
+            "StackName": "kyclookapp-20181211183410",
+            "StackId": "arn:aws:cloudformation:us-west-2:804165849592:stack/kyclookapp-20181211183410/59a8c820-fd73-11e8-9064-0aa3372404a6"
+        }
+    }
+}

@@ -2,9 +2,9 @@
 
 const awsmobile =  {
     "aws_project_region": "us-west-2",
-    "aws_content_delivery_bucket": "looklateralkycapp-20181210100258--hostingbucket",
+    "aws_content_delivery_bucket": "kyclookapp-20181211182556-hostingbucket-dev",
     "aws_content_delivery_bucket_region": "us-west-2",
-    "aws_content_delivery_url": "http://looklateralkycapp-20181210100258--hostingbucket.s3-website-us-west-2.amazonaws.com"
+    "aws_content_delivery_url": "http://kyclookapp-20181211182556-hostingbucket-dev.s3-website-us-west-2.amazonaws.com"
 };
 
 

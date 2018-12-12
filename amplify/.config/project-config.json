@@ -1,20 +1,17 @@
 {
-    "projectName": "looklateralkycapp",
-    "projectPath": "D:\\Users\\frazi\\Documents\\projects\\looklateral-kyc-app",
-    "defaultEditor": "code",
-    "frontendHandler": {
-        "javascript": "C:\\Users\\frazi\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-javascript"
-    },
+    "projectName": "kyclookapp",
+    "version": "1.0",
+    "frontend": "javascript",
     "javascript": {
         "framework": "react",
         "config": {
             "SourceDir": "src",
             "DistributionDir": "build",
-            "BuildCommand": "npm.cmd run-script build",
-            "StartCommand": "npm.cmd run-script start"
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
         }
     },
-    "providers": {
-        "awscloudformation": "C:\\Users\\frazi\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
-    }
+    "providers": [
+        "awscloudformation"
+    ]
 }

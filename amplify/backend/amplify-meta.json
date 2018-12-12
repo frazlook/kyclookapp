@@ -1,32 +1,32 @@
 {
-	"providers": {
-		"awscloudformation": {
-			"AuthRoleName": "looklateralkycapp-20181210100219-authRole",
-			"UnauthRoleArn": "arn:aws:iam::804165849592:role/looklateralkycapp-20181210100219-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::804165849592:role/looklateralkycapp-20181210100219-authRole",
-			"Region": "us-west-2",
-			"DeploymentBucketName": "looklateralkycapp-20181210100219-deployment",
-			"UnauthRoleName": "looklateralkycapp-20181210100219-unauthRole",
-			"StackName": "looklateralkycapp-20181210100219",
-			"StackId": "arn:aws:cloudformation:us-west-2:804165849592:stack/looklateralkycapp-20181210100219/bc5c0230-fca5-11e8-9c3d-50a68a0e32f2"
-		}
-	},
-	"hosting": {
-		"S3AndCloudFront": {
-			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/looklateralkycapp-20181210100219-deployment/amplify-cfn-templates/hosting/template.json",
-				"logicalId": "hostingS3AndCloudFront"
-			},
-			"lastPushTimeStamp": "2018-12-10T18:04:17.052Z",
-			"output": {
-				"S3BucketSecureURL": "https://looklateralkycapp-20181210100258--hostingbucket.s3.amazonaws.com",
-				"WebsiteURL": "http://looklateralkycapp-20181210100258--hostingbucket.s3-website-us-west-2.amazonaws.com",
-				"Region": "us-west-2",
-				"HostingBucketName": "looklateralkycapp-20181210100258--hostingbucket"
-			},
-			"lastPushDirHash": "uvyaefY+oiWlDCAZqsIw34pJ6LM="
-		}
-	}
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "kyclookapp-20181211183410-authRole",
+            "UnauthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211183410-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::804165849592:role/kyclookapp-20181211183410-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "kyclookapp-20181211183410-deployment",
+            "UnauthRoleName": "kyclookapp-20181211183410-unauthRole",
+            "StackName": "kyclookapp-20181211183410",
+            "StackId": "arn:aws:cloudformation:us-west-2:804165849592:stack/kyclookapp-20181211183410/59a8c820-fd73-11e8-9064-0aa3372404a6"
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/kyclookapp-20181211183410-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            },
+            "lastPushTimeStamp": "2018-12-12T01:48:04.707Z",
+            "output": {
+                "S3BucketSecureURL": "https://kyclookapp-20181211182556-hostingbucket-dev.s3.amazonaws.com",
+                "WebsiteURL": "http://kyclookapp-20181211182556-hostingbucket-dev.s3-website-us-west-2.amazonaws.com",
+                "Region": "us-west-2",
+                "HostingBucketName": "kyclookapp-20181211182556-hostingbucket-dev"
+            },
+            "lastPushDirHash": "TyAYoFEG5cfE4qa+qLZEttsNPhE="
+        }
+    }
 }

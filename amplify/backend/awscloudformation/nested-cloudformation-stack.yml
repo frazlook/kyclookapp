@@ -81,8 +81,11 @@
 		"hostingS3AndCloudFront": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/looklateralkycapp-20181210100219-deployment/amplify-cfn-templates/hosting/template.json",
-				"Parameters": {}
+				"TemplateURL": "https://s3.amazonaws.com/kyclookapp-20181211183410-deployment/amplify-cfn-templates/hosting/template.json",
+				"Parameters": {
+					"bucketName": "kyclookapp-20181211182556-hostingbucket",
+					"env": "dev"
+				}
 			}
 		}
 	},
