@@ -27,7 +27,6 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .jsx,.js src",
     "postmerge": "npm install",
-    "postrewrite": "npm install",
-    "precommit": "npm run lint --no-verify"
+    "postrewrite": "npm install"
   }
 }
